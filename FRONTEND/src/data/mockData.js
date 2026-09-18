@@ -1,11 +1,11 @@
 export const INITIAL_VOLUNTEER = {
   id: "NSS-2026-0142",
-  name: "Sudheer K",
+  name: "R. Sudheer",
   department: "Computer Science & Engineering",
   year: "III Year",
   institution: "National Institute of Technology / University College of Engineering",
   photoUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80",
-  email: "sudheer.nss@univ.edu",
+  email: "rsudheer.nss@univ.edu",
   phone: "+91 98765 43210",
   joinedDate: "15 August 2024",
   stats: {
@@ -149,7 +149,7 @@ export const INITIAL_CERTIFICATES = [
     issueDate: "12 August 2026",
     hours: 3,
     status: "VERIFIED",
-    recipient: "Sudheer K",
+    recipient: "R. Sudheer",
     nssId: "NSS-2026-0142"
   },
   {
@@ -160,7 +160,7 @@ export const INITIAL_CERTIFICATES = [
     issueDate: "02 July 2026",
     hours: 5,
     status: "VERIFIED",
-    recipient: "Sudheer K",
+    recipient: "R. Sudheer",
     nssId: "NSS-2026-0142"
   },
   {
@@ -171,7 +171,7 @@ export const INITIAL_CERTIFICATES = [
     issueDate: "18 May 2026",
     hours: 3,
     status: "VERIFIED",
-    recipient: "Sudheer K",
+    recipient: "R. Sudheer",
     nssId: "NSS-2026-0142"
   },
   {
@@ -182,7 +182,7 @@ export const INITIAL_CERTIFICATES = [
     issueDate: "10 March 2026",
     hours: 4,
     status: "VERIFIED",
-    recipient: "Sudheer K",
+    recipient: "R. Sudheer",
     nssId: "NSS-2026-0142"
   },
   {
@@ -193,7 +193,7 @@ export const INITIAL_CERTIFICATES = [
     issueDate: "15 January 2026",
     hours: 5,
     status: "VERIFIED",
-    recipient: "Sudheer K",
+    recipient: "R. Sudheer",
     nssId: "NSS-2026-0142"
   }
 ];
@@ -295,7 +295,7 @@ export const INITIAL_ANNOUNCEMENTS = [
 ];
 
 export const INITIAL_ROSTER = [
-  { id: "NSS-2026-0142", name: "Sudheer K", dept: "Computer Science & Eng", year: "III Year", hours: 42, events: 8, attendance: "92%", status: "Active" },
+  { id: "NSS-2026-0142", name: "R. Sudheer", dept: "Computer Science & Eng", year: "III Year", hours: 42, events: 8, attendance: "92%", status: "Active" },
   { id: "NSS-2026-0104", name: "Ananya Sharma", dept: "Electronics & Comm", year: "III Year", hours: 58, events: 11, attendance: "95%", status: "Active" },
   { id: "NSS-2026-0211", name: "Rahul Verma", dept: "Mechanical Eng", year: "IV Year", hours: 64, events: 13, attendance: "98%", status: "Active" },
   { id: "NSS-2026-0089", name: "Priya Sundaram", dept: "Computer Science & Eng", year: "II Year", hours: 36, events: 6, attendance: "88%", status: "Active" },

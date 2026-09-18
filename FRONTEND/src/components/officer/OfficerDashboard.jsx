@@ -267,7 +267,7 @@ export const OfficerDashboard = () => {
                 }}
               >
                 <div>
-                  <div style={{ fontWeight: 700, fontSize: '0.88rem', color: '#fff' }}>Sudheer K ({att.volunteerId})</div>
+                  <div style={{ fontWeight: 700, fontSize: '0.88rem', color: '#fff' }}>R. Sudheer ({att.volunteerId})</div>
                   <div style={{ fontSize: '0.75rem', color: 'var(--text-sub)' }}>Time: {att.checkInTime} • +{att.hours} Hrs Credited</div>
                 </div>
                 <span className="badge badge-emerald">PRESENT ✓</span>

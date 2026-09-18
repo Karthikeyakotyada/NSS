@@ -24,9 +24,9 @@ export const NSSProvider = ({ children }) => {
       const saved = localStorage.getItem(STORAGE_KEY);
       if (saved) {
         const parsed = JSON.parse(saved);
-        if (parsed.volunteer && parsed.volunteer.name === 'Karthikeya K') {
-          parsed.volunteer.name = 'Sudheer K';
-          parsed.volunteer.email = 'sudheer.nss@univ.edu';
+        if (parsed.volunteer && (parsed.volunteer.name === 'Karthikeya K' || parsed.volunteer.name === 'Sudheer K')) {
+          parsed.volunteer.name = 'R. Sudheer';
+          parsed.volunteer.email = 'rsudheer.nss@univ.edu';
           parsed.volunteer.photoUrl = 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80';
         }
         return parsed;
@@ -220,7 +220,7 @@ export const NSSProvider = ({ children }) => {
       }
     }));
 
-    // Update Officer Roster view for Sudheer K
+    // Update Officer Roster view for R. Sudheer
     setRoster((prev) =>
       prev.map((vol) =>
         vol.id === volunteer.id
