@@ -1,0 +1,9 @@
+{
+  "name": "nss-digital-management-system",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm --prefix FRONTEND run dev",
+    "build": "npm --prefix FRONTEND run build"
+  }
+}
